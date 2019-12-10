@@ -1,0 +1,67 @@
+*{margin: auto;}
+
+h1{
+    text-align: center;
+    color: #492736;
+    padding: 0.5em;
+    font-family: Arial;   
+}
+
+#calendario{
+    background-color:gray;
+    text-align: center;    
+    max-width: 513px;    
+    color: wheat;
+    
+}
+#anterior { float: left; width: 100px; font: bold 12pt arial;
+    padding: 0.5em 0.1em; cursor: pointer ; }
+#posterior { float: right; width: 100px; font: bold 12pt arial; 
+    padding: 0.5em 0.1em; cursor: pointer ;}
+#titulos{
+    color: wheat;
+    padding: 0.2em;
+    font: normal 20pt "Helvetica";
+    
+}
+#diasc{
+    color: tomato ;
+    text-align: center;
+    border-spacing: 1px ;
+    border-collapse: separate;
+    background-color: #492736;
+    font: normal 14pt arial;
+}
+
+#diasc th, #diasc td {
+    width: 70px; 
+    height: 35px;
+    font-weight: bold;
+}
+
+#fechaactual{
+    color:#492736;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+#buscafecha{
+    color:#492736;
+
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+}
+
+#buscafecha select , #buscafecha input{
+    background:#eee;
+}
+#buscanames{
+    background-color:gray
+}
+
+body{
+    background: lightgrey;
+}
+
+
