@@ -35,17 +35,23 @@ h1 {
     left: 0;
     position: fixed;
     border-top: 0;    
+
 }
 .TAB table{
     border-collapse: collapse;
+    table-layout: fixed;
 }
 
 .TAB td{
     background: red;
     height: 70px;
-    width: 100%;
+    width: 100% ;
     position: relative;
     
+}
+.TAB td{
+    
+    border:  1px solid slategrey   ;
 }
 .row{
     display: -webkit-flex; /* Safari */
@@ -135,6 +141,12 @@ th{
 .foto{
     width:  175px;
     height: 200px;
+}
+
+.foto-Encab{
+    width: 5px;
+    height: 10px;;
+    align-content: flex-end;
 }
 
 body {
