@@ -1,32 +1,10 @@
-
-
 h1 {
     margin-left: 20px;
     margin-top: 10px;
     padding: 10px;
 }
 
-.Encabezado {
-    background: rgb(87, 24, 69);
-    color: white;
-    font-size: 80;
-    text-align: left;
-    
-    height: 80px;
-    width: 100%;
-    left: 0;
-    top: 0;
-    right: 0;
-    position: fixed;
-    margin: auto;
 
-    display: -webkit-flex; /* Safari */
-    -webkit-flex-direction: row; /* Safari 6.1+ */
-    display: flex;
-    flex-direction: row;
- 
-    
-}
 .TAB {
     color: black;
     height: 80px;
@@ -50,6 +28,7 @@ h1 {
     padding: 10px;
     
 }
+
 #titulo{
     font-size: 30px;
 }
@@ -58,16 +37,7 @@ h1 {
     display:ruby-base-container;
     
 }
-.row{
-    display: -webkit-flex; /* Safari */
-    -webkit-flex-direction: row; /* Safari 6.1+ */
-    display: flex;
-    flex-direction: row;
-    text-size-adjust: inherit;
-    width: 100%;
 
-
-}
 .tareas{
     text-align: center;
     margin-top: 10px;
@@ -119,6 +89,7 @@ a{
 
 p {
     font-family: helvetica;
+    margin-top: 10px;
    
 }
 
@@ -154,9 +125,12 @@ th{
     align-content: flex-end;
 }
 
+.negro{
+    color: blue;
+}
 body {
-    padding-top: 90px;
+    padding-top: 100px;
     padding-left: 200px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
    
 }
