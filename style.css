@@ -38,20 +38,25 @@ h1 {
 
 }
 .TAB table{
-    border-collapse: collapse;
-    table-layout: fixed;
+    background: rgb(87, 24, 69);
+    color: white;
+    display: block;
+    
 }
 
 .TAB td{
-    background: red;
-    height: 70px;
-    width: 100% ;
-    position: relative;
+    width: 100%;
+    border-collapse: separate;
+    padding: 10px;
     
 }
-.TAB td{
+#titulo{
+    font-size: 30px;
+}
+#Nombre{
+    font-size: 15px;
+    display:ruby-base-container;
     
-    border:  1px solid slategrey   ;
 }
 .row{
     display: -webkit-flex; /* Safari */
@@ -144,8 +149,8 @@ th{
 }
 
 .foto-Encab{
-    width: 5px;
-    height: 10px;;
+    width: 75px;
+    height: 75px;;
     align-content: flex-end;
 }
 
