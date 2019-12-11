@@ -124,7 +124,10 @@ th{
     height: 75px;;
     align-content: flex-end;
 }
-
+.imagenLenguajes{
+    width: 350px;
+    height:200px;
+}
 .negro{
     color: blue;
 }
