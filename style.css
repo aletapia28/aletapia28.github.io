@@ -4,7 +4,6 @@ h1 {
     padding: 10px;
 }
 
-
 .TAB {
     color: black;
     height: 80px;
@@ -12,128 +11,121 @@ h1 {
     top: 0;
     left: 0;
     position: fixed;
-    border-top: 0;    
-
+    border-top: 0;
 }
-.TAB table{
-    background: rgb(87, 24, 69);
+
+.TAB table {
+    /* background: rgb(87, 24, 69); */
+    background: #492736;
     color: white;
     display: block;
-    
 }
 
-.TAB td{
+.TAB td {
     width: 100%;
     border-collapse: separate;
     padding: 10px;
-    
 }
 
-#titulo{
+#titulo {
     font-size: 30px;
 }
-#Nombre{
+
+#Nombre {
     font-size: 15px;
-    display:ruby-base-container;
-    
+    display: ruby-base-container;
 }
 
-.tareas{
+.tareas {
     text-align: center;
     margin-top: 10px;
 }
+
 .Nombre {
     color: black;
     padding: 10px;
     text-align: right;
-    
 }
-
 
 h2 {
     background: rgb(219, 202, 202);
     color: navy;
     text-align: center;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
 
-
-.barra-lateral{
- background:rgb(87, 24, 69); 
- position: fixed;
- height: 100%;
- width: 150px;
- margin: auto   ;
- left: 0;
- top: 80px;
-
+.barra-lateral {
+    background: #492736;
+    position: fixed;
+    height: 100%;
+    width: 150px;
+    margin: auto;
+    left: 0;
+    top: 80px;
 }
-.barra-lateral ul li{
+
+.barra-lateral ul li {
     color: white;
     padding-bottom: 35px;
     text-align: left;
-    
-
 }
-.barra-lateral li img{
-    
+
+.barra-lateral li img {
     height: 30px;
     width: 30px;
-  display: block
-    
-    
+    display: block
 }
 
 p {
     font-family: helvetica;
     margin-top: 10px;
-   
 }
 
 ul {
     font-family: helvetica;
     list-style-type: none;
-    
-    
 }
+
 table {
     overflow-wrap: break-word;
     background: white;
-   
 }
 
 td {
-    width: 25%;  
-    
-}
-th{
-    font-size: 25px;
-    
+    width: 25%;
 }
 
-.foto{
-    width:  175px;
+th {
+    font-size: 25px;
+}
+
+.foto {
+    width: 175px;
     height: 200px;
 }
 
-.foto-Encab{
+.foto-Encab {
     width: 75px;
-    height: 75px;;
+    height: 75px;
+    ;
     align-content: flex-end;
 }
-.imagenLenguajes{
+
+.imagenLenguajes {
     width: 350px;
-    height:200px;
+    height: 200px;
 }
-.negro{
+
+.negro {
     color: blue;
 }
+
 body {
     padding-top: 100px;
     padding-left: 200px;
     font-family: Helvetica, sans-serif;
-   
 }

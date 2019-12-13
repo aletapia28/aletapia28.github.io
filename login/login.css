@@ -1,0 +1,67 @@
+html,body{
+    height: 100%;
+}
+body{
+    background: #232020;    
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+.login-container{
+   
+   margin: auto;   
+   width: 235px;
+   height: 335px;
+   background: #f4f4f4;
+   border-radius: 40px;
+   transition: all 1.5s ease-in;
+
+}
+
+
+.form-singin input{
+    border-radius: 30px;
+    text-align: center;
+}
+
+.btn-login {
+    margin-top: 10px;
+    background:#232020;
+    border-radius: 30px;
+    border-color:#232020;
+    color: white;
+    transition: all 1s ease;
+    
+}
+.recover{
+    font-size: 12px;
+}
+
+.btn-login:hover{
+    color:white;
+    background:#ff7315;
+    transition: all 1s ease;
+}
+
+.no-border{
+    border: 0;
+    box-shadow: none;
+}
+.material-icons.md-48 { font-size: 48px; }
+
+
+
+.input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid#232020;
+    text-align: center;
+    -webkit-box-shadow: none;
+    outline: -webkit-focus-ring-color auto 0px;
+};

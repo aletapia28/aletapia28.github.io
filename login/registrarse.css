@@ -1,0 +1,25 @@
+html,body{
+    height: 100%;
+}
+body{
+    background: #232020;    
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    background: #ff7315;
+    max-width: 460px;
+    border: thick;
+}
+
+.linea{
+    border-right: 6px solid #ff7315;
+    background: #f4f4f4;
+}
