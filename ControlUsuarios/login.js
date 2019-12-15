@@ -22,3 +22,22 @@ function validate_pass (){
     window.location.href = "registrarse.html";
 
 }
+
+function ShowPass() {
+    var x = document.getElementById("password");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+
+function registrarse(){
+    window.location.href= "login.html"
+}
+
+
+function cambiar_pass(){
+    window.location.href= "login.html"
+
+}

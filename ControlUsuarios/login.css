@@ -31,6 +31,17 @@ body{
     height: 435px;
 
 }
+.password-container{
+    margin: auto;
+    background: #f4f4f4;
+    border-radius: 40px ;
+    width: 235px;
+    height: 300px;
+    transition: all 1.5s ease-in;
+    
+
+
+}
 .form-register input{
     padding: 3px;
 }
@@ -66,6 +77,14 @@ body{
 }
 .material-icons.md-48 { font-size: 48px; }
 
+.material-icons.md-12 { font-size: 18px; 
+margin-bottom: 10px;}
+
+.input-group-btn-a{
+    size: 10%;
+    display:inline;
+    position: fixed;
+}
 
 
 .input{
@@ -80,5 +99,5 @@ body{
 .register-container{
     background: red;
     
-   
 }
+
