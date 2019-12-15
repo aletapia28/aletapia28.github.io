@@ -21,7 +21,18 @@ body{
    background: #f4f4f4;
    border-radius: 40px;
    transition: all 1.5s ease-in;
+}
 
+.register-container{
+    margin:auto;
+    background: #f4f4f4;
+    border-radius: 40px;
+    width: 235px;
+    height: 435px;
+
+}
+.form-register input{
+    padding: 3px;
 }
 
 
@@ -65,3 +76,9 @@ body{
     -webkit-box-shadow: none;
     outline: -webkit-focus-ring-color auto 0px;
 };
+
+.register-container{
+    background: red;
+    
+   
+}

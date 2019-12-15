@@ -8,7 +8,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="login.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <script type="text/javascript" src="login.js"></script>
 </head>
 
 
@@ -18,18 +18,27 @@
         <div class="form-sigin">
             <h1>Iniciar Sesión</h1>
             <div>
-                <input class="input" type="Correo" id="correo" placeholder="Ingrese su correo" name="correo" required autofocus>
-                <BR></BR>
-                <input class="input" type="password" id="password" placeholder="Ingrese su contraseña" name="password" required
+                <input class="input" type="Correo" id="correo" placeholder="Ingrese su correo" name="correo" required
                     autofocus>
+                <BR></BR>
+                <input class="input" type="password" id="password" placeholder="Ingrese su contraseña" name="password"
+                    required autofocus>
+                <span class="input-group-btn">
+                    <button class="btn btn-default reveal" type="button">
+                        <i class="material-icons md-12">remove_red_eye</i></button>
+                </span>
             </div>
             <div>
-                <button class=" btn btn-login " type="submit">Ingresar</button>
+                <button class=" btn btn-login " type="submit" onclick="validate_pass()">Ingresar</button>
             </div>
             <div>
-                <label class= "recover" for="Recuperar">¿Olvido su contraseña?</label>
+                <label class="recover" for="Recuperar" ¿Olvido su contraseña?></label>
+                <a href="register.html">¿Olvido su contraseña?</a>
             </div>
 
         </div>
     </div>
+
+    <script src="login.js"></script>
+
 </body>
