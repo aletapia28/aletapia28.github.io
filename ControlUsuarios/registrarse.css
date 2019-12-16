@@ -1,25 +1,80 @@
-html,body{
+html, body {
     height: 100%;
 }
-body{
-    background: #232020;    
+
+body {
+    background: #232020;
     padding-top: 40px;
     padding-bottom: 40px;
-
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
     align-items: center;
 }
 
-.container{
+.container {
     text-align: center;
     background: #ff7315;
     max-width: 460px;
     border: thick;
 }
 
-.linea{
+.linea {
     border-right: 6px solid #ff7315;
     background: #f4f4f4;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+.titulo {
+    top: 0;
+    position: fixed;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: #f4f4f4;
+    font-size: 56px;
+}
+
+.button {
+    border: none;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    text-decoration: none;
+    align-self: center;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Trebuchet MS';
+    margin: 4px 2px;
+    color: #232020;
+    border-radius: 50%;
+    
+}
+
+
+
+.gris {
+    background: #f4f4f4;
+}
+
+.nar {
+    background: #ff7315;
+}
+.button:focus{
+    outline: none;
+}
+
+.nar:hover {
+
+    transition: all 1s ease;
+    transform: scale(1.5) perspective(1px)
+}
+.gris:hover {
+
+    transition: all 1s ease;
+    transform: scale(1.5) perspective(1px)
 }
