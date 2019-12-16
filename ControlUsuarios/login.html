@@ -18,7 +18,7 @@
         <div class="form-sigin">
             <h1>Iniciar Sesión</h1>
             <div>
-                <input class="input" type="Correo" id="correo" placeholder="Ingrese su correo" name="correo" required
+                <input class="input" type="email" id="email" placeholder="Ingrese su correo" name="correo" required
                     autofocus>
                 <BR>
                 <div>
@@ -32,12 +32,14 @@
                 </div>
             </div>
             <div>
-                <button class=" btn btn-login " type="submit" onclick="validate_pass()">Ingresar</button>
+                <button class=" btn btn-login " type="submit" onclick="IniciarSesion()">Ingresar</button>
             </div>
             <div>
-                <label class="recover" for="Recuperar" ¿Olvido su contraseña?></label>
-                <a href="pass.html">¿Olvido su contraseña?</a>
+                <a href="recover.html">¿Olvido su contraseña?</a>
             </div>
+            <div>
+                    <a href="pass.html">Cambiar contraseña</a>
+                </div>
 
         </div>
     </div>

@@ -31,6 +31,14 @@ body{
     height: 435px;
 
 }
+.recover-container{
+    margin:auto;
+    background: #f4f4f4;
+    border-radius: 40px;
+    width: 235px;
+    height: 235px;
+
+}
 .password-container{
     margin: auto;
     background: #f4f4f4;
