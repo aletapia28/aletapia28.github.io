@@ -13,19 +13,32 @@ body {
     align-items: center;
 }
 
-h1 {
-    color: #f4f4f4
+
+.alinear{
+margin-top: 10px;
+margin-left: 10px;
+}
+.arriba{
+    top: 0;
+    left: 0;
+    position: fixed;
+    color:#f4f4f4;
 }
 
 .material-icons.md-48 {
     font-size: 48px;
     color: #f4f4f4;
-    float:right;
-    align-content: center;
+    align-content: flex-end;
 }
 
-.usuario{
+.usuario {
     top: 0;
     left: 0;
-
+    position: fixed;
+    color: #f4f4f4;
 }
+
+.name{
+    color: #f4f4f4;
+}
+
