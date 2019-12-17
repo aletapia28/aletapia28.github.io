@@ -1,4 +1,4 @@
-
+var Usuario=""
 function test_pass(pass) {
     if (pass.match(/[a-z]/g) && pass.match(
         /[A-Z]/g) && pass.match(
@@ -24,12 +24,12 @@ function ValidateEmail(mail) {
 
 function IniciarSesion() {
     var passw = document.getElementById("password").value;
-    var mail = document.getElementById("correo").value;
-
+    var mail = document.getElementById("email").value;
+   
     
     if (test_pass(passw) == true && ValidateEmail(mail))
-        window.location.href = "index.html"
-    
+        window.location.href = "index.html?"+mail;
+        
 }
 
 function ShowPass() {
@@ -73,4 +73,12 @@ function recover() {
 
     if(ValidateEmail(mail)==true)
         window.location.href = "login.html"
+}
+
+function cargarNombre(){
+    var mail = document.getElementById("email");
+    var user = window.location.search.substr(1);
+
+
+    document.getElementById("User_name").innerHTML=user;
 }

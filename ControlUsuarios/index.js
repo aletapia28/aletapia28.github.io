@@ -1,8 +1,6 @@
 function cargarNombre(){
-    var name =document.getElementById("name");
-    document.getElementById("name").innerHTML="Alejandro Tapia"
-
-
+    var name =document.getElementById("User_name");
+    document.getElementById("User_name").innerHTML="Alejandro Tapia"
 
 
 }
