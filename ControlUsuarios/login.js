@@ -44,6 +44,7 @@ function ShowPass() {
 function registrarse() {
     var nombre = document.getElementById("Nombre").value;
     var passw = document.getElementById("password").value;
+    
 
     if (test_pass(passw) == true)
         window.location.href = "login.html"

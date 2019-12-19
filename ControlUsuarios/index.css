@@ -42,3 +42,8 @@ margin-left: 10px;
     color: #f4f4f4;
 }
 
+.foto-Encab {
+    width: 75px;
+    height: 75px;
+    align-content: flex-end;
+}
