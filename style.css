@@ -4,6 +4,11 @@ h1 {
     padding: 10px;
 }
 
+.subTareas{
+    background-color: white;
+    width: 100%;
+}
+
 .TAB {
     color: black;
     height: 80px;
