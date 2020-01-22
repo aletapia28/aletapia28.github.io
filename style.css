@@ -31,7 +31,9 @@ h1 {
     border-collapse: separate;
     padding: 10px;
 }
-
+.video{
+    text-align: center;
+}
 #titulo {
     font-size: 30px;
 }
